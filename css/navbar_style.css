@@ -1,0 +1,61 @@
+.ez-nav-bar{
+    height: 65px;
+    font-size: 20px;
+    border-bottom: 2px solid teal;
+
+}
+
+.nav-logo{
+    font-size: 50px;
+    font-weight: 900;
+    transition-duration: 1s;
+}
+
+.nav-logo:hover{
+    color:#faab35;
+}
+
+.nav-link{
+    border: 1px solid teal;
+    padding: 5px 10px;
+    border-radius: 10px;
+    min-width: 80px;
+    height: 37px;
+    text-align: center;
+    font-weight: 500;
+    transition-duration: 500ms;
+}
+
+.nav-link:hover{
+    background-color: teal;
+    color: black;
+}
+
+.nav-dd .nav-link{
+    width: 100%;
+}
+
+.nav-button{
+    background-color: teal;
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid teal;
+    color: black;
+    transition-duration: 500ms;
+}
+
+.nav-button:not(:focus){
+    outline-width: 0px;
+    border: 1px solid teal;
+}
+
+.nav-button:hover{
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid teal;
+    color: teal;
+}
+
+.nav-button-icon{
+    font-size: 30px;
+}
