@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'roboto';
-    src: url('fonts/Roboto-Black.ttf');
+    src: url('../SFD/fonts/Roboto-Black.ttf');
 }
 
 body{
@@ -8,7 +8,7 @@ body{
 }
 
 .content-holder{
-    background-image: url('images/1.jpg');
+    background-image: url('../SFD/images/1.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 60%;
@@ -45,21 +45,21 @@ body{
 }
 
 .section-1{
-    background-image: url('images/2.jpg');
+    background-image: url('../SFD/images/2.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 60%;
 }
 
 .section-2{
-    background-image: url('images/3.jpg');
+    background-image: url('../SFD/images/3.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 60%;
 }
 
 .section-3{
-    background-image: url('images/4.jpg');
+    background-image: url('../SFD/images/4.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 60%;
