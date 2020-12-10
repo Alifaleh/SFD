@@ -78,3 +78,16 @@ body{
 .section-text span{
     line-height: 2.1;
 }
+
+@media (max-width:768px){
+    .main-home-logo{
+        max-width: 50%;
+        z-index: 2;
+    } 
+    .main-logo-caption{
+        font-size: 20px;
+    }
+    .section-text{
+        font-size: 15px;
+    }
+}
